@@ -1,0 +1,91 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.split-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.pasture-view {
+  border: 3px solid #2c3e50;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.digital-view {
+  background: #f0f2f5;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.feed-container {
+  display: grid;
+  gap: 0.5rem;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.post {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.clickbait {
+  background: #ffd700;
+  font-weight: bold;
+}
+
+.legend {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stage-controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button.active {
+  background: #3498db;
+  color: white;
+}
+
+.analogy-explanations {
+  background: #ecf0f1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
